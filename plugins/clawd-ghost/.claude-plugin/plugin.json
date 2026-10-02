@@ -1,0 +1,18 @@
+{
+  "name": "clawd-ghost",
+  "version": "0.1.0",
+  "description": "Unofficial fan-made mod: before Claude edits a file, a ghost Clawd shows what happened to that file before (your past decisions, git history, your own past words) so settled choices don't quietly swing back. Not affiliated with or endorsed by Anthropic.",
+  "author": { "name": "Ozan" },
+  "license": "MIT",
+  "keywords": ["clawd", "decisions", "history", "fan-made"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "decisionsFile": {
+      "type": "string",
+      "title": "Decisions file",
+      "description": "Your project's decisions log, relative to the repository root. If it isn't there, the ghost also looks for DECISIONS.md, docs/decisions.md and decisions.md, and works from git history and your past prompts alone when there is none.",
+      "default": "design/decisions.md",
+      "required": false
+    }
+  }
+}

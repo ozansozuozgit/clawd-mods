@@ -1,0 +1,28 @@
+{
+  "name": "clawd-mods",
+  "owner": {
+    "name": "Ozan"
+  },
+  "metadata": {
+    "description": "Unofficial fan-made Claude Code mods starring Clawd. Not affiliated with or endorsed by Anthropic.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "clawd-ghost",
+      "source": "./plugins/clawd-ghost",
+      "description": "Before Claude edits a file, a ghost Clawd shows what happened to that file before (your logged decisions, git history, your own past words) so settled choices don't quietly swing back. Observe-only, fully local.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ozan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "clawd",
+        "decisions",
+        "history",
+        "fan-made"
+      ]
+    }
+  ]
+}

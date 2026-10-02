@@ -1,0 +1,10 @@
+# Types the engine writes beside each plugin (/plugin-types); regenerated, never committed.
+.claude-plugin/types/
+# The ghost's local index and transcript cache.
+.data/
+# The hooks are TypeScript run as-is (tsconfig is noEmit); a stray tsc emit is never source.
+plugins/*/hooks/*.js
+plugins/*/tests/*.js
+node_modules/
+*.log
+.DS_Store
